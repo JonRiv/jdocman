@@ -4,7 +4,7 @@
 $(document).on('mobileinit', function () {
   "use strict";
 
-  var APPLICATION_MODE = 'editor',
+  var APPLICATION_MODE = 'taskman',
     DEBUG = true;
 
 
@@ -557,7 +557,7 @@ $(document).on('mobileinit', function () {
           }, {
             storage_type: 'drupal',
             storage_name: 'Drupal',
-            json_description: '{"type":"drupal","username":"<username>","password":"<password>","server":"<server>","endpoint":"<endpoint>","privateserver":false}'
+            json_description: '{"type":"drupal","username":"admin","password":"password","server":"https://jiodrupal.pagekite.me","endpoint":"api/jio","privateserver":true}'
           }
         ];
 
